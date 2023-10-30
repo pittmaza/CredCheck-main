@@ -1,0 +1,58 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #505F4A;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.form-group {
+    padding-bottom: 24px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+
+.grid-child {
+    text-align: center;
+    padding: 20px;
+    background-color: #8AB47C;
+    border-radius: 8px;
+}
+
+.grid-container-statistics {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.grid-child-statistics {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
